@@ -1,0 +1,4 @@
+#!/Users/hedani/Documents/GitRepos/data_api_hedani/data_api/venv/bin/python
+# EASY-INSTALL-SCRIPT: 'testrepository==0.0.20','testr'
+__requires__ = 'testrepository==0.0.20'
+__import__('pkg_resources').run_script('testrepository==0.0.20', 'testr')

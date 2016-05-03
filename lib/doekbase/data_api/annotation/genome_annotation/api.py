@@ -928,7 +928,7 @@ class _KBaseGenomes_Genome(ObjectAPI, GenomeAnnotationInterface):
             f["feature_publications"] = []
 
             if 'aliases' in x:
-                f["feature_aliases"] = {k: [] for k in x['aliases']}
+                f["feature_aliases"] = [k for k in x['aliases']]
             else:
                 f["feature_aliases"] = {}
 
